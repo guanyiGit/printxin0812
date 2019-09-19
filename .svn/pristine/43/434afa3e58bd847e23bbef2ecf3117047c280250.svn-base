@@ -1,0 +1,31 @@
+page to:1
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at java.util.Arrays.stream(Unknown Source)
+	at java.util.stream.Stream.of(Unknown Source)
+	at org.javatribe.calculator.page.CardList.lambda$generateTable$5(CardList.java:188)
+	at java.lang.Thread.run(Unknown Source)
+page to:1
+org.javatribe.calculator.exception.GlobalException: 无法连接打印机！
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:77)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.page.CardList$16.lambda$actionPerformed$2(CardList.java:709)
+	at java.lang.Thread.run(Unknown Source)
+page to:1
+org.javatribe.calculator.exception.GlobalException: 无法连接打印机！
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:77)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.page.CardList$16.lambda$actionPerformed$2(CardList.java:709)
+	at java.lang.Thread.run(Unknown Source)
+page to:1
+org.javatribe.calculator.exception.GlobalException: 无法连接打印机！
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:77)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.page.CardList$16.lambda$actionPerformed$2(CardList.java:709)
+	at java.lang.Thread.run(Unknown Source)
+page to:1
+page to:1
+page to:1
+page to:1

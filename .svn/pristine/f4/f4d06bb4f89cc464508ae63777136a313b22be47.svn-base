@@ -1,0 +1,81 @@
+page to:1
+page to:1
+page to:1
+javax.swing.JPanel[title_pal,10,3,1170x32,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[table_pal,10,76,1170x545,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[lab_pal,10,36,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[page_pal,10,630,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+[com.zebra.sdk.common.card.containers.GraphicsInfo@2448d676, com.zebra.sdk.common.card.containers.GraphicsInfo@608656a5]
+page to:1
+javax.swing.JPanel[title_pal,10,3,1170x32,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[table_pal,10,76,1170x545,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[lab_pal,10,36,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[page_pal,10,630,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+com.zebra.sdk.comm.ConnectionException: USB Write Failed (65004) - SDK: Device not responding
+	at com.zebra.sdk.zxp.comm.internal.ZXPBase.sendCmd(Unknown Source)
+	at com.zebra.sdk.zxp.comm.internal.ZXPBase.sendCmdAndReadBuffer(Unknown Source)
+	at com.zebra.sdk.zxp.comm.internal.ZXPBase.sendCmdAndReadBuffer(Unknown Source)
+	at com.zebra.sdk.zxp.comm.internal.ZXPBase.getHardwareOptions(Unknown Source)
+	at com.zebra.sdk.zxp.comm.internal.Helpers.hasSmartCard(Unknown Source)
+	at com.zebra.sdk.zxp.comm.internal.Helpers.checkForSmartCard(Unknown Source)
+	at com.zebra.sdk.zxp.job.internal.ZxpJob.smartCardEncode(Unknown Source)
+	at com.zebra.sdk.common.card.printer.internal.ZebraCardPrinterA.smartCardEncode(Unknown Source)
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:155)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.domain.TabCellEditor$1.lambda$actionPerformed$1(TabCellEditor.java:79)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.zebra.sdk.comm.ConnectionException: USB Write Failed (65004) - SDK: Device not responding
+	at com.zebra.sdk.comm.internal.UsbConnectionWindows.write(Unknown Source)
+	at com.zebra.sdk.comm.UsbConnection.write(Unknown Source)
+	at com.zebra.sdk.common.card.comm.internal.DeviceStream.write(Unknown Source)
+	... 13 more
+Caused by: java.lang.Exception: USB Write Failed (65004) - SDK: Device not responding
+	at com.zebra.sdk.comm.internal.NativeUsbAdapter.Write(Native Method)
+	... 16 more
+javax.swing.JPanel[title_pal,10,3,1170x32,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[table_pal,10,76,1170x545,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[lab_pal,10,36,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[page_pal,10,630,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.smartcardio.CardException: list() failed
+	at sun.security.smartcardio.PCSCTerminals.list(Unknown Source)
+	at javax.smartcardio.CardTerminals.list(Unknown Source)
+	at org.javatribe.calculator.service.PrinterService.write(PrinterService.java:185)
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:156)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.domain.TabCellEditor$1.lambda$actionPerformed$1(TabCellEditor.java:79)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: sun.security.smartcardio.PCSCException: SCARD_E_SERVICE_STOPPED
+	at sun.security.smartcardio.PCSC.SCardListReaders(Native Method)
+	... 8 more
+org.javatribe.calculator.exception.GlobalException: ¿¨Æ¬Î´¾Í¾w
+	at org.javatribe.calculator.service.PrinterService.write(PrinterService.java:215)
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:156)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.domain.TabCellEditor$1.lambda$actionPerformed$1(TabCellEditor.java:79)
+	at java.lang.Thread.run(Unknown Source)
+javax.swing.JPanel[title_pal,10,3,1170x32,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[table_pal,10,76,1170x545,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[lab_pal,10,36,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.swing.JPanel[page_pal,10,630,1170x31,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+javax.smartcardio.CardException: list() failed
+	at sun.security.smartcardio.PCSCTerminals.list(Unknown Source)
+	at javax.smartcardio.CardTerminals.list(Unknown Source)
+	at org.javatribe.calculator.service.PrinterService.write(PrinterService.java:185)
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:156)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.domain.TabCellEditor$1.lambda$actionPerformed$1(TabCellEditor.java:79)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: sun.security.smartcardio.PCSCException: SCARD_E_SERVICE_STOPPED
+	at sun.security.smartcardio.PCSC.SCardListReaders(Native Method)
+	... 8 more
+org.javatribe.calculator.exception.GlobalException: ¿¨Æ¬Î´¾Í¾w
+	at org.javatribe.calculator.service.PrinterService.write(PrinterService.java:215)
+	at org.javatribe.calculator.service.PrinterService.print(PrinterService.java:156)
+	at org.javatribe.calculator.service.ConvertServer.generateAutoAndPrinter(ConvertServer.java:413)
+	at org.javatribe.calculator.service.ConvertServer.convertCardInfo(ConvertServer.java:98)
+	at org.javatribe.calculator.domain.TabCellEditor$1.lambda$actionPerformed$1(TabCellEditor.java:79)
+	at java.lang.Thread.run(Unknown Source)
