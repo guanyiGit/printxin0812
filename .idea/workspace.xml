@@ -26,8 +26,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/PrinterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+            <state relative-caret-position="3841">
+              <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/PC_SC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="251" column="26" lean-forward="true" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,13 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/PC_SC.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/common/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="256" column="14" lean-forward="true" selection-start-line="256" selection-start-column="14" selection-end-line="256" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -195,8 +204,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="689" />
-    <option name="y" value="53" />
+    <option name="x" value="893" />
+    <option name="y" value="52" />
     <option name="width" value="1225" />
     <option name="height" value="985" />
   </component>
@@ -208,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,24 +306,6 @@
               <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="printxin0812" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="printxin0812" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="printxin0812" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,7 +334,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -529,6 +520,7 @@
       <workItem from="1566530809285" duration="217000" />
       <workItem from="1566531115020" duration="13232000" />
       <workItem from="1567153282884" duration="2824000" />
+      <workItem from="1572494287980" duration="1268000" />
     </task>
     <servers />
   </component>
@@ -565,12 +557,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367633000" />
+    <option name="totallyTimeSpent" value="368901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="689" y="53" width="1225" height="985" extended-state="0" />
+    <frame x="893" y="52" width="1225" height="985" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.38655463" visible="true" weight="0.36909872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.38655463" visible="true" weight="0.37596565" />
       <window_info id="Structure" order="1" sideWeight="0.6134454" side_tool="true" weight="0.20375335" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/common/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/ConvertServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7163">
@@ -897,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/PrinterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+        <state relative-caret-position="3841">
+          <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -907,11 +892,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/service/PC_SC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="256" column="14" lean-forward="true" selection-start-line="256" selection-start-column="14" selection-end-line="256" selection-end-column="14" />
+        <state relative-caret-position="106">
+          <caret line="251" column="26" lean-forward="true" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/javatribe/calculator/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
